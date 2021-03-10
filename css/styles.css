@@ -59,15 +59,15 @@ img {
   max-width: 100%;
 }
 
-.logo-first {
+.logo__first {
   color: var(--accent-color);
 }
 
-.logo-second {
+.logo__second {
   color: var(--black);
 }
 
-.logo-third {
+.logo__third {
   color: var(--white);
 }
 
@@ -95,7 +95,7 @@ img {
 
 /* Header */
 
-.container.head {
+.header__container {
   display: flex;
   align-items: center;
 }
