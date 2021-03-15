@@ -6,6 +6,7 @@
 
   & .container {
     display: flex;
+    align-items: baseline;
   }
 }
 
@@ -46,8 +47,6 @@
 }
 
 .join__title {
-  margin-top: 12px;
-
   color: var(--white);
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -59,7 +58,6 @@
 }
 
 .subscribe {
-  margin-top: 12px;
   margin-left: 95px;
 }
 

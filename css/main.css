@@ -568,6 +568,9 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
 .address {
@@ -606,7 +609,6 @@ img {
 }
 
 .join__title {
-  margin-top: 12px;
   color: var(--white);
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -618,7 +620,6 @@ img {
 }
 
 .subscribe {
-  margin-top: 12px;
   margin-left: 95px;
 }
 
